@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Portofolio</string>
+    <string name="title_activity_navigation_profile">Hello</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">More apps..</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_section1">im number1</string>
+    <string name="title_section2">im number2</string>
+    <string name="title_section3">im number3</string>
+</resources>

@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firnazluztian.myportofolio.fragments.SendEmailFragment"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="#72e0bd">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toEditText"
+        android:layout_weight="3"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:background="@drawable/fillable_drawable"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:hint="To:"
+        android:textColor="#a6a6a6"
+        android:elevation="3dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/subjectEditText"
+        android:layout_weight="3"
+        android:hint="Subject"
+        android:padding="10dp"
+        android:background="@drawable/fillable_drawable"
+        android:layout_below="@+id/toEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:gravity="center|left"
+        android:textColor="@color/textColor"
+        android:elevation="3dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/contentEditText"
+        android:layout_weight="1"
+        android:hint="Write here"
+        android:padding="10dp"
+        android:gravity="top"
+        android:background="@drawable/fillable_drawable"
+        android:layout_below="@+id/subjectEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:textColor="@color/textColor"
+        android:elevation="3dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:id="@+id/sendEmailButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_below="@+id/contentEditText"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_skills_color"
+        android:elevation="5dp" />
+
+</RelativeLayout>

@@ -1,0 +1,208 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firnazluztian.myportofolio.fragments.SkillsFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleImage"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/ic_launcher" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Programming languages &amp; Frameworks"
+            android:id="@+id/programmingLanguageButton"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_skills_color"
+            android:textStyle="normal"
+            android:elevation="5dp" />
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/programmingGridView"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:background="@drawable/fillable_drawable"
+            android:numColumns="3"
+            android:gravity="center"
+            android:scrollingCache="false"
+            android:nestedScrollingEnabled="true"
+            android:fastScrollEnabled="false"
+            android:fastScrollAlwaysVisible="false"
+            android:clickable="false"
+            android:columnWidth="100dip"
+            android:horizontalSpacing="10dip"
+            android:verticalSpacing="10dip"
+            android:elevation="3dp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Web Technologies"
+            android:id="@+id/webTechButton"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_skills_color"
+            android:textStyle="normal"
+            android:elevation="5dp" />
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/webTechBGridView"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:background="@drawable/fillable_drawable"
+            android:numColumns="3"
+            android:gravity="center"
+            android:nestedScrollingEnabled="true"
+            android:elevation="3dp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Web Services"
+            android:id="@+id/webServicesButton"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_skills_color"
+            android:textStyle="normal"
+            android:elevation="5dp" />
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/webServicesGridView"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:background="@drawable/fillable_drawable"
+            android:numColumns="2"
+            android:gravity="center"
+            android:nestedScrollingEnabled="true"
+            android:elevation="3dp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Development Tools"
+            android:id="@+id/toolsButton"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_skills_color"
+            android:textStyle="normal"
+            android:elevation="5dp" />
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/toolsGridView"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:background="@drawable/fillable_drawable"
+            android:numColumns="auto_fit"
+            android:gravity="center"
+            android:nestedScrollingEnabled="true"
+            android:elevation="3dp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Databases"
+            android:id="@+id/databasesButton"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_skills_color"
+            android:textStyle="normal"
+            android:elevation="5dp" />
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/databasesGridView"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:background="@drawable/fillable_drawable"
+            android:numColumns="2"
+            android:gravity="center"
+            android:nestedScrollingEnabled="true"
+            android:elevation="3dp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CVS"
+            android:id="@+id/cvsButton"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_skills_color"
+            android:textStyle="normal"
+            android:elevation="5dp" />
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/cvsGridView"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:background="@drawable/fillable_drawable"
+            android:numColumns="2"
+            android:gravity="center"
+            android:nestedScrollingEnabled="true"
+            android:elevation="3dp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OS"
+            android:id="@+id/osButton"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_skills_color"
+            android:textStyle="normal"
+            android:elevation="5dp" />
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/osGridView"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:background="@drawable/fillable_drawable"
+            android:numColumns="3"
+            android:gravity="center"
+            android:nestedScrollingEnabled="true"
+            android:elevation="3dp"
+            android:layout_marginBottom="16dp"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+</ScrollView>

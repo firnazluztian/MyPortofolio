@@ -1,0 +1,13 @@
+.color,.isotope div > div:hover,.isotope div > div:focus,.shop-menu li a:hover,.shop-menu li a:focus,.onsale,.tabs li.current a,.b-color:focus,.b-color:hover,.b-lightgrey:focus,.b-lightgrey:hover 
+{background-color: #167f39 !important;color:#fff;}
+
+.b-color,.b-white:focus,.b-white:hover,a,.open .date,.current,.header a:hover,.header a:focus,.txt-color,.teaser h2,.categories a:hover,.categories a:focus,.sidebar a:hover,.sidebar a:focus,.social-icons a:hover,.social-icons a:focus,.product-categories li.current-cat a,.product-categories li:hover a,.product-categories li:focus a,.wishlist a:hover,.wishlist a:focus,.searchsubmit:hover,.searchsubmit:focus,.latest-posts li a:hover h5,.latest-posts li a:focus h5,.owl-buttons div:hover:before,.sitemap a:hover,.sitemap a:focus
+{color: #167f39;}
+
+.tooltip:hover,.product h2:after,.ornament figure:before,.ornament figure:after,.ui-widget-header,.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default, .ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus,.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active			
+{background: #167f39;}
+
+.tooltip:hover:before 					{border-color:transparent transparent #167f39 transparent;}
+
+.b-lightgrey:focus,.b-lightgrey:hover ,.b-color,.ornament:before  		{border-color: #167f39;}
+blockquote {border-left-color: #167f39;}
