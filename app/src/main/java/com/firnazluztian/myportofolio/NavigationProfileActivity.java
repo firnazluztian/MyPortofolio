@@ -168,7 +168,7 @@ public class NavigationProfileActivity extends AppCompatActivity
             case R.id.nav_works:
                 fragmentClass = WorksFragment.class;
                 // set title
-                toolbarTitle.setText("Works");
+                toolbarTitle.setText("Projects");
                 break;
             case R.id.nav_contact:
                 fragmentClass = ContactMeFragment.class;
