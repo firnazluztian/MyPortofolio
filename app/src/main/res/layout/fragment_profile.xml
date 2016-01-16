@@ -59,8 +59,7 @@
                 android:paddingBottom="5dp"
                 android:layout_below="@+id/textView"
                 android:layout_alignRight="@+id/profilePicture"
-                android:layout_alignEnd="@+id/profilePicture"
-                android:textStyle="bold" />
+                android:layout_alignEnd="@+id/profilePicture" />
 
             <TextView
                 android:layout_width="wrap_content"
